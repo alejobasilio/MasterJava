@@ -6,7 +6,7 @@ private String nombre;
 private int numJugadores;
 
 
-
+ 
 public Deporte(int id, String nombre, int numJugadores) {
 	
 	this.id = id;
