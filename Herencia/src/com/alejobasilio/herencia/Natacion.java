@@ -1,6 +1,6 @@
 package com.alejobasilio.herencia;
 
-public class Natacion extends Deporte implements Nadable{
+public final class Natacion extends Deporte implements Nadable{
 
 
 private String estilo;

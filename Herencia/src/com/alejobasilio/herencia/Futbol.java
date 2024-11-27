@@ -1,6 +1,6 @@
 package com.alejobasilio.herencia;
 
-public class Futbol extends Deporte implements Corrible{
+public final class Futbol extends Deporte implements Corrible{
 	
 	private String competición;
 
