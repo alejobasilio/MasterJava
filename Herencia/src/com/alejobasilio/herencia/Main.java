@@ -11,7 +11,7 @@ public class Main {
 		
 		Futbol laLiga= new Futbol(2, "Futbol", 11, "LaLiga");
 		laLiga.jugando();
-		laLiga.correr();
+		laLiga.getListaFutbolistas().getFirst().correr();
 
 	}
 
