@@ -1,16 +1,15 @@
 package com.alejobasilio.herencia;
 
-public abstract class Deporte {
+public sealed abstract class Deporte permits Natacion,Futbol {
 private int id;
 private String nombre;
 private int numJugadores;
 
 
  
-public Deporte(int id, String nombre, int numJugadores) {
+public Deporte(int id, int numJugadores) {
 	
 	this.id = id;
-	this.nombre = nombre;
 	this.numJugadores = numJugadores;
 }
 public int getId() {

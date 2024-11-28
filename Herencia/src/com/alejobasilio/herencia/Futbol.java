@@ -4,16 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class Futbol extends Deporte {
-	
+	private String nombre;
 	private String competición;
 	private List<Futbolista> listaFutbolistas;
 
 	
 	
 	
-	public Futbol(int id, String nombre, int numJugadores, String competición) {
-		super(id, nombre, numJugadores);
-		
+	public Futbol(int id,  int numJugadores, String competición) {
+		super(id,  numJugadores);
+		this.nombre="Futbol";
 		this.competición = competición;
 		this.listaFutbolistas = new ArrayList();
 		Futbolista jugador1= new Futbolista(1, "Alejo", "Delantero");

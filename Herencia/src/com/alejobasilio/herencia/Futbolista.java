@@ -1,6 +1,6 @@
 package com.alejobasilio.herencia;
 
-public class Futbolista implements Corrible{
+public class Futbolista implements Jugable{
 
 	private int id;
 	private String nombre;
@@ -41,8 +41,8 @@ public class Futbolista implements Corrible{
 	 * Método implementado de la inferfaz Corrible
 	 */
 	@Override
-	public void correr() {
-		System.out.println("El jugador " + this.nombre+ " está corriendo");
+	public void jugar() {
+		System.out.println("El jugador " + this.nombre+ " está jugando");
 		
 	}
 
